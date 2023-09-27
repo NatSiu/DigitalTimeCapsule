@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* text-align: center; */
+    font-family: 'Dosis', sans-serif;
+    margin: 0% 15% 0% 15%;
+    background-color: #d4d4d4;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    /* border-bottom: 2px solid #14213d; */
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.logo {
+    width: 4%;
+    text-align: left;
+    /* float: left; */
+}
+
+nav {
+    /* padding-left: 40px; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly; */
+    font-family: 'Dosis', sans-serif;
+    /* margin-top: 20px; */
+    /* background-color: rgb(255, 255, 255); */
+    /* border-radius: 50px;
+    border-bottom: 2px solid #14213d; */
+    /* align-items: center; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-grow: 1;
+}
+
+nav a {
+    font-size: 13px;
+    color: #2e3872;
+    padding: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1%;
+}
+
+a:hover {
+    background-color: #fca311;
+    color: #2e3872;
+    transition: all 0.5s ease;
+}
+
+
+body header nav a.home {
+    /* background-color: rgb(37, 114, 95); */
+    color: #2e3872;
+    padding: 8px 30px;
+    /* padding-top: 8px;
+    padding-bottom: 6px; */
+    margin-right: 1%;
+    border-radius: 50px;
+    border: 2px solid #2e3872;
+    display: inline-block;
+    min-width: 50px;
+}
+
+body header nav a.activity {
+    /* background-color: rgb(37, 114, 95); */
+    color: #2e3872;
+    padding: 8px 30px;
+    /* padding-top: 8px;
+    padding-bottom: 6px; */
+    margin-right: 1%;
+    border-radius: 50px;
+    border: 2px solid #2e3872;
+}
+
+body header nav a.music {
+    /* background-color: rgb(37, 114, 95); */
+    color: #2e3872;
+    padding: 8px 30px;
+    /* padding-top: 8px;
+    padding-bottom: 6px; */
+    border-radius: 50px;
+    border: 2px solid #2e3872;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    /* text-transform: uppkercase; */
+    font-size: 40px;
+    /* position: absolute; */
+    /* display: inline-block; */
+    /* transform: translate(-60%, 150%); */
+    color: #fca311;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;    stroke-width: 2px;
+    text-align: center;
+    /* z-index: 10; */
+    /* letter-spacing: 10px; */
+    /* border: 2px solid #14213d; */
+    padding: 5px 30px;
+    margin: 20px;
+    /* background-color: #fca311; */
+    border-radius: 20px;
+    background: repeating-linear-gradient(
+  45deg,
+  #d4d4d4,
+  #d4d4d4 7px,
+  #d4d4d4 6px,
+  #d4d4d4 6px,
+  #465298 8px
+);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+/* nav {
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-bottom: 2px solid #14213d;
+} */
+
+/* nav a {
+    font-size: 13px;
+    color: black;
+    padding: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1%;
+}
+
+a:hover {
+    background-color: #fca311;
+    color: black;
+    transition: all 0.5s ease;
+} */
+
+
+/* body header nav a.home {
+    background-color: rgb(37, 114, 95);
+    color: #14213d;
+    padding: 8px 30px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    margin-right: 1%;
+    border-radius: 50px;
+    border: 2px solid #14213d;
+    display: inline-block;
+    min-width: 50px;
+}
+
+body header nav a.activity {
+    background-color: rgb(37, 114, 95);
+    color: #14213d;
+    padding: 8px 30px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    margin-right: 1%;
+    border-radius: 50px;
+    border: 2px solid #14213d;
+}
+
+body header nav a.music {
+    background-color: rgb(37, 114, 95);
+    color: #14213d;
+    padding: 8px 30px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    border: 2px solid #14213d;
+} */
+
+.instagramads img{
+    width: 50%;
+    padding: 0px 0% 0px 0px;
+}
+
+.ad1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 5% 0px;
+}

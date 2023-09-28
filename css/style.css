@@ -9,6 +9,10 @@ body {
     background-color: #d4d4d4;
 }
 
+
+
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -19,9 +23,8 @@ header {
 
 .logo {
     width: 3.5%;
-    text-align: left;
+    margin-right: 1%;
 }
-
 
 
 nav {
@@ -72,6 +75,10 @@ body header nav a.music {
     border: 2px solid #2e3872;
 }
 
+
+
+
+
 .container {
     padding: 2% 2% 3% 2%;
     display: flex;
@@ -109,32 +116,38 @@ h1 {
 p {
     text-align: left;
     color: #2e3872;
-    padding-right: 80px;
-    margin-left: 50px;
-    margin-top: 50px;
+    /* padding-right: 80px; */
+    /* margin-left: 50px; */
+    /* margin-top: 50px; */
 }
 
 
-.text {
+/* .text {
     margin-left: 0px;
     margin-bottom: 50px;
-}
+} */
 
-.text2 {
-    margin: 0px 8% 0px 9%;
+.text {
+    margin: 3% 0% 0% 0%;
     font-size: 120%;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-family: 'Martian Mono', monospace;
     text-align: center;
 }
 
-.text2 h2 {
+.text h2 {
     color: #fca311;
     text-shadow: 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872;    stroke-width: 2px;
+    border: 1px solid #2e3872;
+    border-radius: 30px;
+    margin: 0% 40% 0% 40%;
+    padding: 0.5% 0% 0.5% 0%;
 }
 
-.text2 p {
-    line-height: 40px;
+.text p {
+    /* text-align: center; */
+    margin: 2% 6% 0% 6%;
+    line-height: 180%;
 }
 
 .arrow {

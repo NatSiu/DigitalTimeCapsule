@@ -104,8 +104,7 @@ h2 {
 }
 
 h3 {
-    color: #fca311;
-    text-shadow: 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872;    stroke-width: 2px;
+    color:#2e3872;
     border: 1px solid #2e3872;
     border-radius: 30px;
     margin: 0% 40% 2% 40%;
@@ -201,7 +200,7 @@ iframe {
 .playlists p {
     font-size: 120%;
     color:#2b427a;
-    margin: 0% 0% 2% 0%;
+    margin: 0% 12% 2% 12%;
 }
 
 .spotify {
@@ -216,13 +215,13 @@ iframe {
     height: 400px;
 }
 
-.faveartist {
+.text {
     text-align: center;
     margin: 0% 12% 0% 12%;
     color:#2b427a;
 }
 
-.faveartist p {
+.text p {
     margin: 2% 0% 0% 0%;
     font-size: 120%;
 }
@@ -255,3 +254,4 @@ iframe {
     text-align: center;
     margin: 2% 10% 5% 4%;
   }
+  

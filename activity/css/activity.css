@@ -99,6 +99,11 @@ h1 {
 
 h2 {
     font-family: 'Oswald', sans-serif;
+    color: #2e3872;
+}
+
+p {
+    color: #2e3872;
 }
 
 
@@ -114,7 +119,37 @@ img {
 }
 
 .instagramads h2{
+    border: 1px solid #2e3872;
+    border-radius: 30px;
+    margin: 5% 10% 0% 10%;
 }
+
+.instagramtext {
+    font-size: 130%;
+    margin: 0% 15% 10% 15%;
+}
+
+.arrow {
+    border: solid #fca311;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 200% 200% ;
+    border-radius: 7%;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    text-align: center;
+  }
+
+  .arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2% 10% 5% 4%;
+  }
 
 /* .instagramads img{
     width: 50%;

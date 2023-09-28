@@ -4,49 +4,37 @@
 }
 
 body {
-    /* text-align: center; */
     font-family: 'Dosis', sans-serif;
-    margin: 0% 15% 0% 15%;
+    margin: 0% 20% 0% 20%;
     background-color: #d4d4d4;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    border-radius: 50px;
-    /* border-bottom: 2px solid #14213d; */
     align-items: center;
     text-align: center;
-    padding-bottom: 2%;
+    margin: 1% 0%;
 }
 
 .logo {
-    width: 4%;
+    width: 3.5%;
     text-align: left;
-    /* float: left; */
 }
 
+
+
 nav {
-    /* padding-left: 40px; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-evenly; */
+    
     font-family: 'Dosis', sans-serif;
-    /* margin-top: 20px; */
-    /* background-color: rgb(255, 255, 255); */
-    /* border-radius: 50px;
-    border-bottom: 2px solid #14213d; */
-    /* align-items: center; */
     display: flex;
-    /* flex-direction: row-reverse; */
     flex-grow: 1;
 }
 
 nav a {
-    font-size: 13px;
+    font-size: 90%;
     color: #2e3872;
-    padding: 80px;
+    padding: 90%;
     text-decoration: none;
     text-transform: uppercase;
     margin: 1%;
@@ -60,35 +48,26 @@ a:hover {
 
 
 body header nav a.home {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2.5%;
     margin-right: 1%;
     border-radius: 50px;
     border: 2px solid #2e3872;
     display: inline-block;
-    min-width: 50px;
+    min-width: 7%;
 }
 
 body header nav a.activity {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2%;
     margin-right: 1%;
     border-radius: 50px;
     border: 2px solid #2e3872;
 }
 
 body header nav a.music {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2.5%;
     border-radius: 50px;
     border: 2px solid #2e3872;
 }

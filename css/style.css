@@ -4,70 +4,37 @@
 }
 
 body {
-    /* text-align: center; */
     font-family: 'Dosis', sans-serif;
-    margin: 0% 15% 0% 15%;
+    margin: 0% 20% 0% 20%;
     background-color: #d4d4d4;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    border-radius: 50px;
-    /* border-bottom: 2px solid #14213d; */
     align-items: center;
     text-align: center;
-    padding-bottom: 2%;
+    margin: 1% 0%;
 }
 
 .logo {
-    width: 4%;
+    width: 3.5%;
     text-align: left;
-    /* float: left; */
 }
 
-h1 {
-    font-family: 'Martian Mono', monospace;
-    /* text-transform: uppkercase; */
-    font-size: 600%;
-    color: #fca311;
-    text-shadow: 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872;    stroke-width: 2px;
-    letter-spacing: 1%;
-    border: 1px solid #2e3872;
-    padding: 2% 3% 4% 5%;
-    margin: 3% 2% 0px 0px;
-    border-radius: 20px;
-    background: repeating-linear-gradient(
-  45deg,
-  #d4d4d4,
-  #d4d4d4 7px,
-  #d4d4d4 6px,
-  #d4d4d4 6px,
-  #2e3872 8px
-);
-}
+
 
 nav {
-    /* padding-left: 40px; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-evenly; */
+    
     font-family: 'Dosis', sans-serif;
-    /* margin-top: 20px; */
-    /* background-color: rgb(255, 255, 255); */
-    /* border-radius: 50px;
-    border-bottom: 2px solid #14213d; */
-    /* align-items: center; */
     display: flex;
-    /* flex-direction: row-reverse; */
     flex-grow: 1;
 }
 
 nav a {
-    font-size: 13px;
+    font-size: 90%;
     color: #2e3872;
-    padding: 80px;
+    padding: 90%;
     text-decoration: none;
     text-transform: uppercase;
     margin: 1%;
@@ -81,67 +48,70 @@ a:hover {
 
 
 body header nav a.home {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2.5%;
     margin-right: 1%;
     border-radius: 50px;
     border: 2px solid #2e3872;
     display: inline-block;
-    min-width: 50px;
+    min-width: 7%;
 }
 
 body header nav a.activity {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2%;
     margin-right: 1%;
     border-radius: 50px;
     border: 2px solid #2e3872;
 }
 
 body header nav a.music {
-    /* background-color: rgb(37, 114, 95); */
     color: #2e3872;
-    padding: 8px 30px;
-    /* padding-top: 8px;
-    padding-bottom: 6px; */
+    padding: 0.5% 2.5%;
     border-radius: 50px;
     border: 2px solid #2e3872;
 }
 
-p {
-    /* transform: translate(-60%, 50%);
-    position: absolute;
-    display: inline; */
-    text-align: left;
-    color: #2e3872;
-    padding-right: 80px;
-    margin-left: 50px;
-    margin-top: 50px;
-    /* border: 1px solid #fca311;
-    border-radius:20px; */
-}
-
-/* img.blurry {
-    width: 50%;
-    position: relative;
-    transform: translate(-50%, 0.55%);
-} */
-
 .container {
-    /* background-color: rgb(41, 97, 83); */
-    /* background-size: auto; */
-    padding: 20px 20px 40px 20px;
+    padding: 2% 2% 3% 2%;
     display: flex;
     flex-direction: row;
     border-top: 2px solid #2e3872;
     border-bottom: 2px solid #2e3872;
     border-radius: 30px;
+}
+
+.container .title{
+    margin: 0% 2% 0% 0%;
+}
+
+h1 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 600%;
+    color: #fca311;
+    text-shadow: 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872; stroke-width: 2px;
+    letter-spacing: 1%;
+    line-height: 150%;
+    border: 1px solid #2e3872;
+    padding: 2% 3% 4% 5%;
+    margin: 3% 2% 0% 0%;
+    border-radius: 20px;
+    background: repeating-linear-gradient(
+  45deg,
+  #d4d4d4,
+  #d4d4d4 7px,
+  #d4d4d4 6px,
+  #d4d4d4 6px,
+  #2e3872 8px
+);
+}
+
+p {
+    text-align: left;
+    color: #2e3872;
+    padding-right: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 
@@ -184,4 +154,11 @@ p {
 
   footer {
     margin: 5% 0% 10% 0%;
+  }
+
+  .gif {
+    margin: 1% 0% 0% 20%;
+    width: 70%;
+    /* height: 90%; */
+    /* float: right; */
   }

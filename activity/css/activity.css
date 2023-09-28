@@ -22,8 +22,6 @@ header {
     text-align: left;
 }
 
-
-
 nav {
     
     font-family: 'Dosis', sans-serif;
@@ -40,7 +38,7 @@ nav a {
     margin: 1%;
 }
 
-a:hover {
+nav a:hover {
     background-color: #fca311;
     color: #2e3872;
     transition: all 0.5s ease;
@@ -72,22 +70,22 @@ body header nav a.music {
     border: 2px solid #2e3872;
 }
 
+.container {
+    margin: 0% 0% 15% 0%;
+    border-top: 2px solid #2e3872;
+    border-bottom: 2px solid #2e3872;
+    border-radius: 30px;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
-    /* text-transform: uppkercase; */
     font-size: 40px;
-    /* position: absolute; */
-    /* display: inline-block; */
-    /* transform: translate(-60%, 150%); */
     color: #fca311;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;    stroke-width: 2px;
+    text-shadow: 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872, 0 0 1px #2e3872;    stroke-width: 2px;
     text-align: center;
-    /* z-index: 10; */
-    /* letter-spacing: 10px; */
-    /* border: 2px solid #14213d; */
     padding: 5px 30px;
     margin: 20px;
-    /* background-color: #fca311; */
     border-radius: 20px;
     background: repeating-linear-gradient(
   45deg,
@@ -99,70 +97,26 @@ h1 {
 );
 }
 
-h3 {
-    color: rgb(255, 255, 255);
+h2 {
+    font-family: 'Oswald', sans-serif;
 }
 
-/* nav {
-    text-align: right;
-    font-family: 'Dosis', sans-serif;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    border-bottom: 2px solid #14213d;
-} */
 
-/* nav a {
-    font-size: 13px;
-    color: black;
-    padding: 80px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 1%;
+img {
+    width: 90%;
 }
 
-a:hover {
-    background-color: #fca311;
-    color: black;
-    transition: all 0.5s ease;
-} */
-
-
-/* body header nav a.home {
-    background-color: rgb(37, 114, 95);
-    color: #14213d;
-    padding: 8px 30px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    margin-right: 1%;
-    border-radius: 50px;
-    border: 2px solid #14213d;
-    display: inline-block;
-    min-width: 50px;
+.instagramads {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: spa;
 }
 
-body header nav a.activity {
-    background-color: rgb(37, 114, 95);
-    color: #14213d;
-    padding: 8px 30px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    margin-right: 1%;
-    border-radius: 50px;
-    border: 2px solid #14213d;
+.instagramads h2{
 }
 
-body header nav a.music {
-    background-color: rgb(37, 114, 95);
-    color: #14213d;
-    padding: 8px 30px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    border-radius: 50px;
-    border: 2px solid #14213d;
-} */
-
-.instagramads img{
+/* .instagramads img{
     width: 50%;
     padding: 0px 0% 0px 0px;
 }
@@ -171,4 +125,4 @@ body header nav a.music {
     display: flex;
     flex-direction: row;
     margin: 0px 0px 5% 0px;
-}
+} */

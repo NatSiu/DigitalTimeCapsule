@@ -23,7 +23,6 @@ header {
 }
 
 nav {
-    
     font-family: 'Dosis', sans-serif;
     display: flex;
     flex-grow: 1;
@@ -43,7 +42,6 @@ nav a:hover {
     color: #2e3872;
     transition: all 0.5s ease;
 }
-
 
 body header nav a.home {
     color: #2e3872;
@@ -108,14 +106,14 @@ p {
 
 
 img {
-    width: 90%;
+    width: 80%;
 }
 
 .instagramads {
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: spa;
+    justify-content: space-evenly;
 }
 
 .instagramads h2{
@@ -126,6 +124,10 @@ img {
 
 .instagramtext {
     font-size: 130%;
+    margin: 0% 15% 5% 15%;
+}
+
+.instagramads p {
     margin: 0% 15% 10% 15%;
 }
 
@@ -150,14 +152,3 @@ img {
     text-align: center;
     margin: 2% 10% 5% 4%;
   }
-
-/* .instagramads img{
-    width: 50%;
-    padding: 0px 0% 0px 0px;
-}
-
-.ad1 {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 5% 0px;
-} */
